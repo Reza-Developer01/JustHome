@@ -2,7 +2,7 @@
 
 Find Your Perfect Home🏠⭐
 
-- ✨ [Demo Project](https://reza-developer01.github.io/CarRent/)
+- ✨ [Demo Project](https://reza-developer01.github.io/JustHome/)
 
 - 👨‍💻 Developed by Reza Rashvand
 
