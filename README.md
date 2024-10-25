@@ -1,6 +1,6 @@
 # Just Home
 
-Designing a unique and stunning website for luxury car rentals🏎⭐
+Find Your Perfect Home🏠⭐
 
 - ✨ [Demo Project](https://reza-developer01.github.io/CarRent/)
 
