@@ -2,8 +2,6 @@
 
 Designing a unique and stunning website for luxury car rentals🏎⭐
 
-![16](https://github.com/Reza-Developer01/CarRent/blob/main/16.png)
-
 - ✨ [Demo Project](https://reza-developer01.github.io/CarRent/)
 
 - 👨‍💻 Developed by Reza Rashvand
