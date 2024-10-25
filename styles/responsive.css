@@ -1,0 +1,188 @@
+@media screen and (min-width: 576px) {
+    .area {
+        >.container {
+            >div {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .banner {
+        >.container {
+            >div {
+                >div {
+                    gap: 2rem;
+
+                    >img {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-title {
+        font-size: 4rem;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .cover {
+        display: none;
+    }
+
+    .desktop-header {
+        display: inline-block;
+        height: 50vh;
+    }
+
+    .companies {
+        padding: 7.5rem 0;
+
+        >.container {
+            >.companies__items {
+                height: 6.2rem;
+            }
+        }
+    }
+
+    .step,
+    .category,
+    .rents,
+    .service,
+    .comment,
+    .area,
+    .article,
+    .banner {
+        padding: 16.4rem 0;
+    }
+
+    .step {
+        >.container {
+            >div {
+                gap: 5rem;
+
+                >div {
+                    >h3 {
+                        max-width: 32.1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .comment__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .desktop-header__wrapper {
+        >nav {
+            >ul {
+                gap: 4rem;
+            }
+        }
+    }
+
+    .service {
+        >.container {
+            >.service__wrapper {
+                >div:first-child {
+                    display: grid;
+                    flex-basis: 50%;
+                }
+
+                >div:last-child {
+                    flex-basis: 50%;
+                }
+            }
+        }
+    }
+
+    .comment__wrapper {
+        flex-direction: row;
+
+        >div {
+            width: 44rem;
+        }
+    }
+
+    .area {
+        >.container {
+            >div {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+
+    .banner {
+        >.container {
+            >div {
+                flex-direction: row;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .desktop-header__wrapper {
+        >nav {
+            >ul {
+                gap: 4rem;
+            }
+        }
+
+        >div {
+            display: flex;
+        }
+    }
+
+    .desktop-header {
+        height: 72vh;
+    }
+
+    .desktop-header {
+        >div:last-child {
+            gap: 3rem;
+
+            >h1 {
+                font-size: 6rem;
+                max-width: 70rem;
+                line-height: 7.2rem;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .companies {
+        height: 26.5rem;
+    }
+
+    .service {
+        >.container {
+            >.service__wrapper {
+                gap: 12.8rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .banner {
+        >.container {
+            >div {
+                >div {
+                    padding: 7rem;
+                }
+            }
+        }
+    }
+}
